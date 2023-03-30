@@ -8,7 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
-/* abolished header class, consolidated header styling, removed redundancies */
+
+/* abolished .header, consolidated header styling, removed redundancies */
 header {
     width: 100%;
     padding: 15px;
@@ -59,22 +60,45 @@ p {
     margin-bottom: 25px;
 }
 
+/* allows image to sit on left side of container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* allows image to sit on right side of container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* defines styling the wider lefthand column */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* unified/renamed 3 classes of duplicate styling into one class */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+/* deleted duplicate stylings resulting from unification of services class */
+.services img {
+    max-height: 200px;
+}
+
+/* deleted duplicate stylings resulting from unification of services class */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* defines styling for the narrower righthand column */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,107 +110,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* unified/renamed 3 classes of duplicate styling into one class*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* deleted duplicate stylings resulting from unification of benefit class*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* deleted duplicate stylings resulting from unification of benefit class*/
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* removed redundant footer stylings, apply to element not class */
 footer {
