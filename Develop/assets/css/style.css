@@ -4,21 +4,21 @@
     margin: 0;
 }
 
+/* defines background color */
 body {
     background-color: #d9dcd6;
 }
 /* abolished header class, consolidated header styling, removed redundancies */
 header {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     background-color: #2a607c;
     color: #ffffff;
-    padding-top: 15px;
     float: right;
     margin-left: 25px;
 }
 /* allows for organization of header elements */
-section {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,7 @@ h1 {
     font-size: 48px;
     color:#ffffff
 }
-
+/* allows "seo" in h1 to be a different color than rest of h1 */
 .seo {
     color: #d9dcd6;
 }
@@ -42,12 +42,12 @@ ul li {
     margin-left: 25px;
     display: inline-block;
 }
-
+/* defines link color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* defines paragraph font size */
 p {
     font-size: 16px;
 }
