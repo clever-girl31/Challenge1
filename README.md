@@ -2,7 +2,7 @@
 
 ## Description
 
-The end result of this project an improved application which:
+The resulting application created in this project:
 - Uses semantic HTML elements which follow a logical structure within the source code.
 - Utilizes alt attributes for all of its image files.
 - Contains heading attributes that fall in sequential order and function as navigation links within the page.
